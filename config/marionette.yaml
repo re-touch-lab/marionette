@@ -1,0 +1,10 @@
+hand:
+    finger1:
+        motor1:
+            id: 11
+        motor2:
+            id: 12
+        motor3:
+            id: 13
+        motor4:
+            id: 14

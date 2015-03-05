@@ -1,0 +1,5 @@
+<launch>
+  <rosparam command="load" file="$(find marionette)/config/marionette.yaml" />
+  <node pkg="marionette" type="configureParams.py" name="paramConfiguration" output="screen" />
+  <node pkg="marionette" type="dyn_ros_node" name="dynamixel_controller" output="screen" />
+</launch>
